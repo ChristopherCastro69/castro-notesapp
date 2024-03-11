@@ -1,0 +1,53 @@
+/* styles/DisplayNotes.css */
+.display-notes-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.display-notes-container h1 {
+  margin-bottom: 20px;
+}
+
+.display-notes-container button {
+  margin-bottom: 10px;
+  margin-right: 10px; /* Add margin-right to create space between buttons */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.display-notes-container button:last-child {
+  margin-right: 0; /* Remove margin-right from the last button */
+}
+
+.display-notes-container button:hover {
+  background-color: #0056b3;
+}
+
+.notes-container {
+  margin-top: 20px;
+}
+
+.note-box {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.note-text {
+  margin: 0;
+}
+
+.note-date {
+  margin: 0;
+  color: #999;
+}
+
+.logout-button {
+  background-color: red;
+}

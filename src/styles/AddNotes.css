@@ -1,0 +1,50 @@
+/* styles/AddNotes.css */
+.add-note-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-note-container h2 {
+  margin-bottom: 20px;
+}
+
+.add-note-container form {
+  margin-bottom: 20px;
+}
+
+.add-note-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-note-container textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-note-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-note-container button:hover {
+  background-color: #0056b3;
+}
+
+.note-status {
+  margin-top: 10px;
+  color: green;
+}
+
+.error-message {
+  margin-top: 10px;
+  color: red;
+}
